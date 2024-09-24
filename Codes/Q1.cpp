@@ -16,10 +16,16 @@ class Course {
 
 };
 
-void Course::setCourseDetails(int cID, char Cname, int cpt){
+void Course::setCourseDetails(int cid, string cname, int cpt)
+{
+        courseID = cid;
+        courseName = cname;
+        creditPoints = cpt;
+}
 
-    CourseID = cID;
-    strcpy(courseName,Cname);
-    creditPoints = cpt;
+
+void Course::displayCourseDetails(){
+
+
 
 }
