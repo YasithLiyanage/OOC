@@ -53,7 +53,7 @@ float Patient::calculateTotalPayment(){
 }
 
 
-void main (){
+int main (){
 
 
     Patient p1,p2;
