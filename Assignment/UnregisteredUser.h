@@ -9,11 +9,13 @@ private:
     int contactNo;
 
 public:
-    // Constructors
+    // Default constructor
     UnregisteredUser();
+
+    // Parameterized constructor
     UnregisteredUser(string uName, string uEmail, int uContactNo);
 
-    // Getters and setters
+    // Getters and Setters
     void setName(string uName);
     string getName() const;
 

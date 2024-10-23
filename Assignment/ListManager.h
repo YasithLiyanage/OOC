@@ -1,12 +1,11 @@
 #pragma once
-#include <vector>
 #include <string>
 using namespace std;
 
 class ListManager {
 public:
-    // Methods
-    void listBooks(const vector<string>& books);
-    void listReservations(const vector<string>& reservations);
-    void listIssues(const vector<string>& issues);
+    // Methods for listing
+    void listBooks(const string books[], int bookCount);
+    void listReservations(const string reservations[], int resCount);
+    void listIssues(const string issues[], int issueCount);
 };
