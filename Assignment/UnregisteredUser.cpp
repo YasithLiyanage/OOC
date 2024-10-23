@@ -26,28 +26,23 @@ string UnregisteredUser::getEmail() const { return email; }
 void UnregisteredUser::setContactNo(int uContactNo) { contactNo = uContactNo; }
 int UnregisteredUser::getContactNo() const { return contactNo; }
 
-
+// Method implementations
 void UnregisteredUser::searchBook() {
-
     cout << "Unregistered user searching for a book." << endl;
 }
 
 void UnregisteredUser::viewBookDetails() {
-
     cout << "Unregistered user viewing book details." << endl;
 }
 
 void UnregisteredUser::membershipRegistration() {
-    
     cout << "Membership registration process initiated." << endl;
 }
 
 void UnregisteredUser::payDeposit() {
-    
     cout << "Unregistered user paying deposit for membership." << endl;
 }
 
 void UnregisteredUser::requestSupport() {
-    
     cout << "Unregistered user requesting support." << endl;
 }

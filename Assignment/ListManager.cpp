@@ -2,26 +2,26 @@
 #include <iostream>
 using namespace std;
 
-// Method to list all books
-void ListManager::listBooks(const vector<string>& books) {
-    cout << "Listing books:" << endl;
-    for (const auto& book : books) {
-        cout << "- " << book << endl;
+// Method to list books
+void ListManager::listBooks(const string books[], int bookCount) {
+    cout << "Listing all books:" << endl;
+    for (int i = 0; i < bookCount; i++) {
+        cout << (i + 1) << ". " << books[i] << endl;
     }
 }
 
-// Method to list all reservations
-void ListManager::listReservations(const vector<string>& reservations) {
-    cout << "Listing reservations:" << endl;
-    for (const auto& reservation : reservations) {
-        cout << "- " << reservation << endl;
+// Method to list reservations
+void ListManager::listReservations(const string reservations[], int resCount) {
+    cout << "Listing all reservations:" << endl;
+    for (int i = 0; i < resCount; i++) {
+        cout << (i + 1) << ". " << reservations[i] << endl;
     }
 }
 
-// Method to list all issues
-void ListManager::listIssues(const vector<string>& issues) {
-    cout << "Listing issues:" << endl;
-    for (const auto& issue : issues) {
-        cout << "- " << issue << endl;
+// Method to list issues
+void ListManager::listIssues(const string issues[], int issueCount) {
+    cout << "Listing all issues:" << endl;
+    for (int i = 0; i < issueCount; i++) {
+        cout << (i + 1) << ". " << issues[i] << endl;
     }
 }

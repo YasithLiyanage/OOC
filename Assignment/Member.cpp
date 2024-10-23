@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-// Default constructor
+//  constructor
 Member::Member() {
     name = "";
     memberID = 0;
@@ -14,7 +14,6 @@ Member::Member() {
     contactNo = 0;
 }
 
-// Parameterized constructor
 Member::Member(string mName, int mID, string mUsername, string mPassword, string mEmail, string mType, double mDeposit, int mContactNo) {
     name = mName;
     memberID = mID;
@@ -51,43 +50,47 @@ double Member::getDeposit() const { return deposit; }
 void Member::setContactNo(int mContactNo) { contactNo = mContactNo; }
 int Member::getContactNo() const { return contactNo; }
 
-// Methods
+// Methods (implementations)
 void Member::searchBook() {
+    cout << "Searching for a book." << endl;
 }
 
 void Member::viewBookDetails() {
+    cout << "Viewing book details." << endl;
 }
 
 void Member::reserveBook() {
+    cout << "Reserving a book." << endl;
 }
 
 void Member::borrowBook() {
+    cout << "Borrowing a book." << endl;
 }
 
 void Member::returnBook() {
+    cout << "Returning a book." << endl;
 }
 
 void Member::payFine() {
+    cout << "Paying fine for overdue books." << endl;
 }
 
 void Member::viewBorrowedBooks() {
+    cout << "Viewing past borrowed books." << endl;
 }
 
 void Member::requestSupport() {
+    cout << "Requesting support." << endl;
 }
 
 void Member::reportIssue() {
+    cout << "Reporting an issue." << endl;
 }
 
 void Member::updateProfile() {
+    cout << "Updating profile details." << endl;
 }
 
 void Member::viewProfile() {
-    cout << "Member Name: " << name << endl;
-    cout << "Member ID: " << memberID << endl;
-    cout << "Username: " << username << endl;
-    cout << "Email: " << email << endl;
-    cout << "Member Type: " << memberType << endl;
-    cout << "Deposit: $" << deposit << endl;
-    cout << "Contact Number: " << contactNo << endl;
+    cout << "Viewing profile details." << endl;
 }
