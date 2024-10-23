@@ -2,11 +2,17 @@
 #include <string>
 using namespace std;
 
+class ListManager;  
+class Member;       
+
 class UnregisteredUser {
 private:
-    string name;
-    string email;
+    std::string name;
+    std::string email;
     int contactNo;
+    
+    ListManager* listManager;  // Pointer to ListManager
+    Member* member;            // Pointer to Member
 
 public:
     // Default constructor

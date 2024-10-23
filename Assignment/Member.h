@@ -2,6 +2,9 @@
 #include <string>
 using namespace std;
 
+class ListManager;  
+
+
 class Member {
 private:
     string name;
@@ -12,6 +15,8 @@ private:
     string memberType;
     double deposit;
     int contactNo;
+    ListManager* listManager;  // Pointer to ListManager
+
 
 public:
     // Constructors

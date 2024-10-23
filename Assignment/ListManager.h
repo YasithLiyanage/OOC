@@ -2,6 +2,9 @@
 #include <string>
 using namespace std;
 
+class UnregisteredUser; 
+class Member;            
+
 class ListManager {
 public:
     // Methods for listing

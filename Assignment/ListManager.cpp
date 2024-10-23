@@ -2,6 +2,10 @@
 #include <iostream>
 using namespace std;
 
+void ListManager::listBooks() {
+    cout << "Listing books." << endl;
+}
+
 // Method to list books
 void ListManager::listBooks(const string books[], int bookCount) {
     cout << "Listing all books:" << endl;
