@@ -53,43 +53,33 @@ int Member::getContactNo() const { return contactNo; }
 
 // Methods
 void Member::searchBook() {
-    // Code to search a book
 }
 
 void Member::viewBookDetails() {
-    // Code to view book details
 }
 
 void Member::reserveBook() {
-    // Code to reserve a book
 }
 
 void Member::borrowBook() {
-    // Code to borrow a book
 }
 
 void Member::returnBook() {
-    // Code to return a borrowed book
 }
 
 void Member::payFine() {
-    // Code to pay fine for overdue books
 }
 
 void Member::viewBorrowedBooks() {
-    // Code to view past borrowed books
 }
 
 void Member::requestSupport() {
-    // Code to request support
 }
 
 void Member::reportIssue() {
-    // Code to report an issue
 }
 
 void Member::updateProfile() {
-    // Code to update profile details
 }
 
 void Member::viewProfile() {
